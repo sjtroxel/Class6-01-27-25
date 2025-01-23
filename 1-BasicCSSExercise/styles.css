@@ -1,0 +1,48 @@
+* {
+    background-color: lightyellow;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+ }
+
+button {
+    background-color: mediumblue;
+    color: floralwhite;
+    padding: 10px 20px;
+    border: 3px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: midnightblue;
+    color: coral;
+}
+
+button:active {
+    background-color: red;
+    color: aliceblue
+}
+
+/* #header {
+    background-color: darkred;
+    color: lightskyblue;
+    font-style: italic;
+    font-size: 34px;
+    font-weight: bold;
+    border: 3px solid;
+} */
+ 
+.activity {
+     font-style: italic;
+     font-weight: bold;
+     line-height: 150%;
+     border: 2px solid;
+     padding: 30px 10px;
+     background-color: lightsalmon;
+     color: maroon;
+     margin: 25px;
+     font-size: 16px;
+ } 
