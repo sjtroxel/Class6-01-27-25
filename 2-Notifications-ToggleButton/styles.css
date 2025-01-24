@@ -5,35 +5,66 @@
     padding: 20px;
  }
 
-button {
-    background-color: mediumblue;
-    color: floralwhite;
-    padding: 10px 20px;
-    border: 3px solid;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 16px;
+/* Button Styling */
+.subscribe-button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
     font-weight: bold;
-}
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Dynamic Styling for Subscribed State */
+  .is-subscribed {
+    background-color: rgb(240, 240, 240);
+    color: black;
+  }
 
-button:hover {
-    background-color: midnightblue;
-    color: coral;
-}
-
-button:active {
+/* Like Button Styling */
+.like-button {
+    border: none;
+    background-color: lightgray;
+    color: black;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.liked {
     background-color: red;
-    color: aliceblue
-}
+    color: white;
+  }
 
-p {
+/* Notification Button Styling */
+.notification-button {
+    border: none;
+    background-color: slategray;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+.enabled {
+    background-color: chartreuse;
+    color: navy;
+  }
+
+.TBD {
      font-style: italic;
-     font-weight: bold;
+     /* font-weight: bold; */
      line-height: 150%;
      border: 2px solid;
      padding: 30px 10px;
-     background-color: lightsalmon;
-     color: maroon;
+     background-color: black;
+     color: burlywood;
      margin: 25px;
      font-size: 16px;
  } 
